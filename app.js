@@ -5,10 +5,10 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 
 
-const AppError = require('./appError');
+const AppError = require('./src/components/Errorhandling/appError');
 
 
-const userRouter = require('./userRoutes');
+const userRouter = require('./src/components/userComponents/userRoutes');
 
 const app = express();
 

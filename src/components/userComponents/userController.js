@@ -1,6 +1,6 @@
 const User = require('./userModel');
-const catchAsync = require('./catchAsync');
-const AppError = require('./appError');
+const catchAsync = require('../Errorhandling/catchAsync');
+
 
 
 
